@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NodesContainer should render a full tree, if a nodesData exists 1`] = `
+<div>
+  <div
+    class="nodes_container"
+  >
+    <div
+      class="node"
+    >
+      <div
+        class="node__name "
+      >
+        0
+      </div>
+      <div
+        class="node_children"
+      >
+        <div
+          class="node"
+        >
+          <div
+            class="node__name "
+          >
+            2
+          </div>
+        </div>
+        <div
+          class="node"
+        >
+          <div
+            class="node__name "
+          >
+            3
+          </div>
+          <div
+            class="node_children"
+          >
+            <div
+              class="node"
+            >
+              <div
+                class="node__name "
+              >
+                5
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="node"
+    >
+      <div
+        class="node__name "
+      >
+        1
+      </div>
+      <div
+        class="node_children"
+      >
+        <div
+          class="node"
+        >
+          <div
+            class="node__name "
+          >
+            4
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NodesContainer should select all group, if user click by right button on node name 1`] = `
+<div>
+  <div
+    class="nodes_container"
+  >
+    <div
+      class="node"
+    >
+      <div
+        class="node__name node__name_selected"
+      >
+        0
+      </div>
+      <div
+        class="node_children"
+      >
+        <div
+          class="node"
+        >
+          <div
+            class="node__name node__name_selected"
+          >
+            2
+          </div>
+        </div>
+        <div
+          class="node"
+        >
+          <div
+            class="node__name node__name_selected"
+          >
+            3
+          </div>
+          <div
+            class="node_children"
+          >
+            <div
+              class="node"
+            >
+              <div
+                class="node__name "
+              >
+                5
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="node"
+    >
+      <div
+        class="node__name "
+      >
+        1
+      </div>
+      <div
+        class="node_children"
+      >
+        <div
+          class="node"
+        >
+          <div
+            class="node__name "
+          >
+            4
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

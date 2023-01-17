@@ -1,0 +1,21 @@
+.nodes_container {
+    display: flex; 
+    justify-content: center;  
+}
+
+.node {
+    margin: 5px;
+}
+
+.node__name {
+    cursor: pointer;
+    border: 1px solid gray;;
+}
+
+.node__name_selected {
+    border-color: red;
+}
+
+.node_children {
+    margin-left: 10px;
+}

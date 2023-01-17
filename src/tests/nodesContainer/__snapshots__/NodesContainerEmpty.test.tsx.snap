@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NodesContainer should render an empty tree, if nodesData is empty 1`] = `
+<div>
+  <div
+    class="nodes_container"
+  />
+</div>
+`;
